@@ -1,0 +1,105 @@
+body {
+    background-color: palegoldenrod;
+    text-align: center;
+
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    width: 100%;
+    padding: 20px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    background-color: lightyellow;
+
+}
+.col-box {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 15px;
+    background-color: palegreen;
+    text-align: center;
+}
+
+
+.portfolio {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project {
+    background-color: aliceblue;
+    padding: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+}
+.sidebar {
+    padding: 20px;
+    background-color: lightpink;
+    border: 2px solid black;
+}
+.footer {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+}
+@media (max-width: 575px) {
+    h1{
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    p {
+        font-size: 10px;
+    }
+    .boxes {
+        flex-direction: column;
+    }
+    .box {
+        width: 100%;
+    }
+    
+}
+@media (min-width: 576px) and (max-width: 991px) {
+    h1 {
+        font-size: 25px;
+
+    }
+    h3 {
+        font-size: 20px;
+    }
+    p {
+        font-size: 15px;
+    }
+    
+    .box {
+        width: 50%;
+    }
+}
+@media (min-width: 992px) {
+    h1 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 35px;
+    }
+    p {
+        font-size: 30px;
+    }
+    .box {
+        width: 33.33%;
+    }
+}
