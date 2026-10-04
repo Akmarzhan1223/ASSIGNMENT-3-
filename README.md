@@ -58,10 +58,6 @@ It has:
 
 On smaller screens, the navigation links are hidden and can be opened using the hamburger button.
 
-**Screenshot:**
-![alt text](<Screenshots/Screenshot 3.0.png>)
-
----
 
 ## Part 3 Combined Project
 For the final task, I combined Bootstrap Grid and CSS Media Queries.
@@ -75,7 +71,7 @@ The portfolio has:
 * footer
 
 **Screenshot:**
-Add screenshot here.
+![alt text](<Screenshots/Screenshot 3.0.png>)
 
 ---
 
